@@ -32,19 +32,9 @@ Worked with
 - PLSQL
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-## Demo
-
-Youtube Video to show the functioning of the project
-
-https://www.youtube.com/watch?v=EVCLlHuYRNM
-
-
 ## Deployment
 
 https://myyntra.netlify.app/
-
 
 
 ## Badges
@@ -89,9 +79,12 @@ Best thing happend so far in this project ?
 Created my onw logic for a lot of things like Drop Downs and OTP generation and validation.
 ## Tech Stack
 
-**Frontend** - ### HTML -> CSS -> Javascript
+**Frontend** - 
 
-**Database** - ### Local storage
+## HTML -> CSS -> Javascript
+
+**Database** - 
+## Local storage
 
 
 ## Demo Images
@@ -190,6 +183,15 @@ Created my onw logic for a lot of things like Drop Downs and OTP generation and 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+## Demo
+
+Youtube Video to show the functioning of the project
+
+https://www.youtube.com/watch?v=EVCLlHuYRNM
 
 
  
