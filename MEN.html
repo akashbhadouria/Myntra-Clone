@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/MEN.css">
+    <title>MEN</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+ <nav>
+        <div id="logo" href="./index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Myntra_logo.png" alt="">
+            </div>
+            
+            <div id="options">
+            <ul>
+                <li id="men"><a href="./MEN.html">MEN</a></li>
+                <li id="women"><a href="./WOMEN.html">WOMEN</a></li>
+                <li id="kids"><a href="#">KIDS</a></li>
+                <li id="home"><a href="#">HOME & LIVING</a></li>
+                <li id="beauty"><a href="#">BEAUTY</a></li>
+                <li id="studio"><a href="#">STUDIO</a></li>
+            </ul>
+            </div>
+            <img id="search" src="https://img.icons8.com/ios-filled/50/undefined/search--v1.png"/>
+            <input type="text" placeholder="Search for Products, Brands & More">
+        </nav>
+
+        <div id="icons">
+         <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+           <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    
+
+<div id="plz-sort">
+    <label for="sort" class="select">Sort By: </label>
+
+    <select name="sort" class="select arrange" onchange="sort()">
+      <option value="asc-p">Price: High To Low</option>
+      <option value="dsc-p">Price: Low To High</option>
+      <option value="str-i">A - Z</option>
+      <option value="str-d">Z - A</option>
+    </select> 
+</div>
+    <!-- _________________________ -->
+    <div id="show"></div>
+    
+    <!-- SideBar -->
+    <aside>
+        <div id="container">
+            <h4 class="filter">FILTERS</h4>
+            <!-- Brands -->
+            <div id="brand">
+                <p>BRAND</p>
+                <section id="form">
+                    <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">US POLO</label>
+                    <br><br>
+
+                      <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">TANTRA</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">ADIDAS</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">REEBOK</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">NIKE</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="usp" name="usp" onchange='handleChange(this)'>
+                    <label for="usp">ALLEN</label>
+                </section>
+            </div>
+        
+            <!-- Price -->
+             <div id="price">
+                <p>PRICE</p>
+                <section id="form">
+                    <input type='checkbox' name="USP" value="1" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp">100 - 200</label>
+                    <br><br>
+
+                      <input type='checkbox' name="USP" value="2" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp">200 - 300</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="3" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp"> 300 - 400</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="4" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp">400 - 500</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="5" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp">500 - 1000</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="6" name="usp" onchange='handlePrice(this)'>
+                    <label for="usp">1000 +</label>
+                </section>
+            </div>
+
+            <!-- Colors -->
+             <div id="color">
+                <p>COLOR</p>
+                <section id="form">
+                    <input type='checkbox' name="USP" value="pink" name="usp" onchange='handleColor(this)'>
+                      <label for="usp"> <span id="pink"></span> PINK</label>
+                    <br><br>
+
+                    
+                    <input type='checkbox' name="USP" value="black" name="usp" onchange='handleColor(this)'>
+                    <label for="usp"> <span id="black"></span> BLACK</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="blue" name="usp" onchange='handleColor(this)'>
+                      <label for="usp"> <span id="blue"></span> BLUE</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="red" name="usp" onchange='handleColor(this)'>
+                      <label for="usp"> <span id="red"></span> RED</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="yellow" name="usp" onchange='handleColor(this)'>
+                      <label for="usp"> <span id="yellow"></span> YELLOW</label>
+
+                    <br><br>
+                      <input type='checkbox' name="USP" value="green" name="usp" onchange='handleColor(this)'>
+                     <label for="usp"> <span id="green"></span> GREEN</label>
+                </section>
+            </div>
+        </div>
+
+    </aside>
+<footer>
+    <div class="one">
+        <h6>ONLINE SHOPPING</h6>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Kids</p>
+        <p>Kids</p>
+        <p>Home & Living</p>
+        <p>Beauty</p>
+        <p>Gift Cards</p>
+    </div>
+    <div class="two">
+         <h6>USEFUL LINKS</h6>
+         <p>Contact Us</p>
+         <p>FAQ</p>
+         <p>T&C</p>
+         <p>Terms Of Use</p>
+         <p>Track Orders</p>
+         <p>Shipping</p>
+         <p>Cancellation</p>
+         <p>Returns</p>
+         <p>Whitehat</p>
+         <p>Blog</p>
+         <p>Careers</p>
+         <p>Privacy</p>
+         <p>Site Map</p>
+         <p>Corporate</p>
+    </div>
+    <div class="download">
+        <img src="./images/play.png" alt="">
+        <img src="./images/appStore.png" alt="">
+             <img src="./images/foot-adv.jpg" alt="">
+    </div>
+    <div class="orig">
+        <h3>100% Original</h3>
+        <p>For all Myntra Products</p>
+
+          <h3>Return within 30days </h3>
+        <p>From the day the order is delivered</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<script src="./scripts/MEN.js"></script>

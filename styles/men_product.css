@@ -1,0 +1,369 @@
+   body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #container {
+        max-width: 100%;
+        height: 120vh;
+        margin-top: 2rem;
+        /* border: .6rem solid red; */
+        display: flex;
+        flex: 1 1 50%;
+    }
+
+    #left {
+        max-width: 60%;
+        display: grid;
+        flex: 1 1 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -1rem;
+        gap: 2rem;
+    }
+    .img {
+        max-width: 50%;
+        width: 40%;
+        margin: 1rem;
+        height: 50%;
+    }
+    
+    #right {
+        padding-left: 1rem;
+        width: 40%;
+        max-width: 50%;
+        min-width: 50%;
+        /* border: .4rem solid green; */
+        height: 100%;
+        flex: 1 1 50%;
+        margin-top: 3rem;
+    }
+
+    #size {
+        max-width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .round {
+        width: 2vw;
+        padding: 1vw;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .round:hover {
+        border: 2px solid #ff3e6c;
+        cursor: pointer;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .i1 > img {
+        width: 110%;
+        overflow: hidden;
+    }
+
+    .i2 > img{
+        width: 110%;
+        overflow: hidden;
+    }
+
+    .i3 > img{
+        width: 110%;
+        overflow: hidden;
+    }
+    .i4 > img{
+        width: 110%;
+        overflow: hidden;
+    }
+    img:hover {
+      cursor: progress;
+       animation: expand 1s 0.1s forwards ;
+    }
+
+/* Animation */
+@keyframes expand {
+ from {
+    width: 100%;
+     transform: translate(0%,0%);
+ }  
+ to {
+    width: 120%;
+    transform: translate(-10%,-5%);
+ } 
+}
+
+    #name > p {
+        font-size: 1.2vw;
+        max-width: 80%;
+        margin-top: .7vw;
+    }
+
+/* Rating */
+.fa-star {
+    width: 10%;
+    color: #0db7af;
+}
+#rating {
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+#rating > p {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.btn {
+    /* border: 1px solid red; */
+    max-width: 90%;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+.btn > button {
+    background-color: #ff527b;
+    color: white;
+    border: .1rem solid #ff527b;
+    margin-left: 1rem;
+    padding: 0.8rem 4rem;
+}
+.btn > button:hover {
+    background-color: #f83462;
+    cursor: pointer;
+}
+
+.btn > .white {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+}
+.btn > .white:hover {
+     border: 1px solid black;
+     background-color: white;
+}
+
+.fa-solid, .fa-heart {
+    margin-right: 1rem;
+}
+.fa-truck {
+    color: gray;
+}
+
+input {
+    padding: .3rem 1rem;
+    font-size: 1vw;
+    letter-spacing: .1rem;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+}
+#check {
+    padding: .3rem .3rem;
+    background: transparent;
+    border: none;
+    /* position: absolute; */
+    cursor: pointer;
+    font-size: 1.2vw;
+    /* font-weight: bolsd; */
+    left: -.4rem;
+    z-index: 2;
+}
+.inp {
+    font-size: 1vw;
+    margin-bottom: 2rem;
+}
+
+
+    /* NAVBAR */
+
+nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: rgba(22, 6, 250, 0.089) 0px 54px 55px, rgb(18, 161, 243) 0px -12px 30px, rgba(210, 52, 224, 0.747) 0px 4px 6px, rgba(47, 189, 130, 0.17) 0px 12px 13px, rgba(93, 35, 202, 0.582) 0px -3px 5px;
+}
+
+#logo {
+    display: inline-block;
+    width: 4.5%;
+    margin-top: 0.7%;
+    transform: translateX(-10rem);
+    cursor: pointer;
+}
+
+#logo  > img{
+    width: 80%;
+}
+
+#options {
+   max-width: 40%;
+   margin-left: -10rem;
+   transform: translateX(-15rem);
+   margin-top: 1.2%;
+   padding-right: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: #282c3f;
+    margin-left: 1rem;
+    font-size: 80%;
+    font-weight: bold;
+    letter-spacing: .01rem;
+}
+
+ul > li:nth-child(1) {
+    margin-left: -2%;
+    margin-right: -.2rem;
+}
+
+nav > input {
+    padding: 0;
+    height: 60%;
+    margin-left: -25rem;
+    width: 30%;
+    padding-left: 1rem;
+    border: none;
+}
+#search {
+    width: 10%;
+    margin-right: -1rem;
+    position: absolute;
+    width: 1.1rem;
+}
+
+#men {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+    margin-left: 1rem;
+}
+#men:hover {
+    border-bottom: 4px solid #ee5f73;
+    border-radius: .1rem;
+}
+
+#women {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+}
+#women:hover {
+    border-bottom: 4px solid #fb56c1;
+    border-radius: .1rem;
+}
+
+#kids {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+ 
+}
+#kids:hover {
+    border-bottom: 4px solid #f26a10;
+    border-radius: .1rem;
+}
+
+#home {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: .2rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+}
+
+#home:hover {
+    border-bottom: 4px solid #ff3f6c;
+    border-radius: .1rem;
+}
+
+#beauty {
+    height: 2.6rem;
+    max-width: fit-content;
+    margin-left: 0.1rem;
+}
+#beauty:hover {
+    border-bottom: 4px solid #0db7af;
+    border-radius: .1rem;
+}
+
+#studio {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+}
+#studio:hover {
+    border-bottom: 4px solid #ff3f6c;
+    border-radius: .1rem;
+}
+
+/* icons */
+#icons {
+    width: 11%;
+    max-width: 12%;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+}
+i {
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    max-width: 100%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 6rem;
+    margin-top: 14rem;
+}
+footer p {
+    margin-top: -.4rem;
+    font-size: 1vw;
+}
+footer p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+footer h6  {
+    margin-top: 0.2rem;
+}
+.one {
+  padding-left: 3rem;  
+}
+.download {
+    display: flex;
+    height: 15%;
+    gap: 2rem;
+    margin-top: 10%;
+}
+
+.orig {
+    /* border: 1px solid red; */
+    width: 40%;
+    padding-left: 4rem;
+}

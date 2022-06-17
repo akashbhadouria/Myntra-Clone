@@ -1,0 +1,394 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .a {
+        background-color: #0db7af;
+        margin-bottom: .4rem;
+    } 
+
+
+    img {
+        width: 20%;
+    }
+    .cloth1 > img {
+        width: 100%;
+    }
+    #poster {
+        width: 100%;
+        margin: auto;
+    }
+
+    #poster > img {
+        width: 100%;
+    }
+
+    #div8 {
+        display: grid;
+        max-width: 80%;
+        margin: auto;
+        margin-left: 4%;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(auto);
+    }
+    .box {
+            width: 70%;
+            height: 17rem;
+            width: 13rem;
+    }
+    .box > img {
+        width: 100%;
+        object-fit: contain;
+        object-fit: cover;
+        margin-left: -2rem;
+        }
+
+#diva {
+    max-width: 100%;
+    margin: auto;
+}
+#diva > img {
+    width: 19%;
+}
+
+nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: rgba(22, 6, 250, 0.089) 0px 54px 55px, rgb(18, 161, 243) 0px -12px 30px, rgba(210, 52, 224, 0.747) 0px 4px 6px, rgba(47, 189, 130, 0.17) 0px 12px 13px, rgba(93, 35, 202, 0.582) 0px -3px 5px;
+    position: relative;
+}
+
+#logo {
+    display: inline-block;
+    width: 4.5%;
+    margin-top: 0.7%;
+    margin-left: 4%;
+    transform: translateX(-10rem);
+    cursor: pointer;
+}
+
+#logo  > img{
+    width: 80%;
+}
+
+#options {
+   /* top: 2rem; */
+   max-width: 40%;
+   margin-left: -10rem;
+   transform: translateX(-15rem);
+   margin-top: 1.2%;
+    /* border: 1px solid red; */
+    padding-right: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: #282c3f;
+    margin-left: 1rem;
+    font-size: 80%;
+    font-weight: bold;
+    letter-spacing: .01rem;
+}
+
+ul > li:nth-child(1) {
+    margin-left: -2%;
+    margin-right: -.2rem;
+}
+
+nav > input {
+    padding: 0;
+    height: 60%;
+    margin-left: -25rem;
+    width: 30%;
+    padding-left: 1rem;
+    border: none;
+}
+#search {
+    width: 10%;
+    margin-right: -1rem;
+    position: absolute;
+    width: 1.1rem;
+}
+
+#men {
+    /* border: 1px solid red;s */
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+    margin-left: 1rem;
+    /* margin-top: 1srem; */
+}
+#men:hover {
+    border-bottom: 4px solid #ee5f73;
+    border-radius: .1rem;
+}
+
+#women {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+}
+#women:hover {
+    border-bottom: 4px solid #fb56c1;
+    border-radius: .1rem;
+}
+
+
+
+#kids {
+    /* border: 1px solid red;s */
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: 1rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+    /* margin-top: 1srem; */
+}
+#kids:hover {
+    border-bottom: 4px solid #f26a10;
+    border-radius: .1rem;
+}
+
+
+#home {
+    /* border: 1px solid red;s */
+    max-height: 100%;
+    height: 2.6rem;
+    padding-right: .2rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+    /* margin-top: 1srem; */
+}
+#home:hover {
+    border-bottom: 4px solid #ff3f6c;
+    border-radius: .1rem;
+}
+
+#beauty {
+    height: 2.6rem;
+    max-width: fit-content;
+    margin-left: 0.3rem;
+}
+
+#beauty:hover {
+    border-bottom: 4px solid #0db7af;
+    border-radius: .1rem;
+}
+
+#studio {
+    max-height: 100%;
+    height: 2.6rem;
+    padding-left: -1rem;
+    margin-left: -.1rem;
+}
+#studio:hover {
+    border-bottom: 4px solid #ff3f6c;
+    border-radius: .1rem;
+}
+
+/* icons */
+#icons {
+    /* border: 1px solid red; */
+    width: 11%;
+    max-width: 12%;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+}
+i {
+    cursor: pointer;
+}
+
+
+/* Drop Downs */
+
+.men_menu {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows:  repeat(3rem, auto);;
+    width: 60%;
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    left: 14%;
+    top: 11.2%;
+    height: 70%;
+    /* border: 1px solid red; */
+    column-gap: 2rem;
+    z-index: 1;
+    display: none;
+}
+
+.men_menu1 {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows:  repeat(3rem, auto);;
+    width: 60%;
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 11.2%;
+    height: 70%;
+    /* border: 1px solid red; */
+    column-gap: 2rem;
+    z-index: 1;
+    display: none;
+}
+
+.topwear , .festive_wear, 
+.bottom_wear,.inner_wear,.foot_wear,
+.sports, .gadgets{
+    display: flex;
+    flex-direction: column;
+    left: 10rem;
+    margin: auto;
+    font-size: 80%;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    /* background-color: #0db7af; */
+}
+  a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+   .topwear >  p:hover,
+    .festive_wear >  p:hover,
+     .bottom_wear > p:hover,
+     .inner_wear > p:hover,
+     .foot_wear > p:hover,
+     .sports > p:hover,
+     .gadgets > p:hover  {
+        cursor: pointer;
+        font-weight: bolder;
+    }
+
+  
+    .topwear h4, .festive_wear h4, .bottom_wear h4,
+    .inner_wear h4, .foot_wear h4,
+    .sports h4, .gadgets h4 {
+        color: #ee5f73;
+        margin-bottom: -.1rem;
+    }
+
+    .topwear p, .festive_wear p,
+     .bottom_wear p, .inner_wear p,
+     .casual_shoes p, .sports p,
+     .gadgets p {
+             margin-bottom: -.3rem ;
+    }
+
+    
+.bottom_wear {
+    position: absolute; 
+    top: 0rem;
+    z-index: 1;
+    /* background-color:red; */
+}
+
+.inner_wear {
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+}
+
+.foot_wear {
+    position: absolute;
+    z-index: 1;
+    top: 0rem;
+    left: 20rem;
+}
+
+.foot_wear > p {
+    margin-bottom: -.2rem;
+}
+
+.sports {
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+    left: 20rem;
+}
+
+.gadgets {
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    left: 32rem;
+}
+
+.festive_wear {
+    position: absolute;
+    top: 10rem;
+    z-index: 1;
+    left:  32rem;
+}
+
+.top-f  {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+ /* color: red;    */
+}
+
+footer {
+    max-width: 100%;
+    height: 60vh;
+    margin-top: 3rem;
+    display: flex;
+    gap: 6rem;
+     margin-top: 4rem;
+}
+footer p {
+    margin-top: -.4rem;
+    font-size: 1vw;
+}
+footer p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+footer h6  {
+    margin-top: 0.2rem;
+}
+.one {
+  padding-left: 3rem;  
+}
+.download {
+    display: flex;
+    height: 15%;
+    gap: 2rem;
+    margin-top: 10%;
+}
+.download img{
+    width: 100%;
+}
+
+.orig {
+    /* border: 1px solid red; */
+    width: 40%;
+    padding-left: 4rem;
+}
