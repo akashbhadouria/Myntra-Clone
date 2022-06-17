@@ -1,6 +1,6 @@
 # Myntra Clone
 
-This is a clone of Myntra which is an e-commerce application.
+This is a clone of Myntra which is an e-commerce application where you can buy different products.
 
 ## Installation
 
@@ -19,19 +19,24 @@ json-server --watch db.json --port 4000
 localhost:4000/women
 
 ```
+## 🚀 About Me
+I'm a full stack developer...
+Worked with 
+- Java
+- Javascript
+- HTML
+- CSS 
+- Python
+- Testing Frameworks
+- My SQL
+- PLSQL
 
-
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 ## Demo
 
-Video to show the functioning of the project
+Youtube Video to show the functioning of the project
 
 https://www.youtube.com/watch?v=EVCLlHuYRNM
 
@@ -42,20 +47,6 @@ https://myyntra.netlify.app/
 
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
 ## Badges
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
@@ -63,20 +54,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Authors
-
-- [@AkashBhadouria](https://www.github.com/octokatherine)
 
 
 ## Features
@@ -92,17 +69,6 @@ Please adhere to this project's `code of conduct`.
 - Landing Page
 - Buy and Pay 
 
-## 🚀 About Me
-I'm a full stack developer...
-Worked with 
-- Java
-- Javascript
-- HTML
-- CSS 
-- Python
-- Testing Frameworks
-- My SQL
-- PLSQL
 
 ## Environment Variables
 
@@ -123,9 +89,9 @@ Best thing happend so far in this project ?
 Created my onw logic for a lot of things like Drop Downs and OTP generation and validation.
 ## Tech Stack
 
-**Frontend** - HTML -> CSS -> Javascript
+**Frontend** - ### HTML -> CSS -> Javascript
 
-**Database** - Local storage
+**Database** - ### Local storage
 
 
 ## Demo Images
@@ -215,11 +181,15 @@ Created my onw logic for a lot of things like Drop Downs and OTP generation and 
 
 
 
+## Authors
+
+- [@AkashBhadouria]
 
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-
-
+Please make sure to update tests as appropriate.
 
 
  
