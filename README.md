@@ -10,7 +10,7 @@ use the internal command line to run the women page data.
 cd scripts
  ```
 
-## Command to create Endpoints for Women Data API
+## Command to create Endpoints for Women Data API Locally
 
 ```javascript
 json-server --watch db.json --port 4000
@@ -30,6 +30,12 @@ Worked with
 - Testing Frameworks
 - My SQL
 - PLSQL
+
+## Demo
+
+Youtube Video to show the functioning of the project
+
+https://www.youtube.com/watch?v=EVCLlHuYRNM
 
 
 ## Deployment
@@ -187,11 +193,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-## Demo
-
-Youtube Video to show the functioning of the project
-
-https://www.youtube.com/watch?v=EVCLlHuYRNM
-
 
  
